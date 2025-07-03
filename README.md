@@ -26,4 +26,25 @@
 ---
 
 ## 📂 Project Structure
+├── tel.c # Source code
+├── Makefile # Build script
+├── README.md
+└── test.txt # Sample input file
 
+
+---
+
+## ⚙️ Installation & Running
+
+### 🔧 Compile
+
+```bash
+git clone https://github.com/AkhileshPatidar04/tel-text-editor.git
+cd tel-text-editor
+gcc tel.c -o tel -std=c99
+
+
+## Acknowledgements
+Inspired by Kilo by Salvatore Sanfilippo (@antirez)
+
+Built using Unix terminal raw mode + ANSI control codes
