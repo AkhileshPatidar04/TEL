@@ -26,8 +26,11 @@
 ---
 
 ## 📂 Project Structure
+
+```plaintext
 tel/
-├── tel.c # Core source code
-├── Makefile # Build script
-├── README.md # Project documentation
-└── test.txt # Sample text file to open/edit
+├── tel.c            # Core source code
+├── Makefile         # Build script
+├── README.md        # Project documentation
+└── test.txt         # Sample file
+
