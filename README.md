@@ -33,4 +33,3 @@ tel/
 ├── Makefile         # Build script
 └── README.md        # Project documentation
 
-![image](https://github.com/user-attachments/assets/0575e8d3-4d79-4d80-b817-484f305c64f5)
