@@ -1,19 +1,19 @@
-# 📝 TEL — Terminal-Based Text Editor for Linux
+### 📝 TEL — Terminal-Based Text Editor for Linux
 
-**TEL** (Text Editor for Linux) is a minimalist terminal-based text editor written in pure C. It features line numbering, highlighted cursor line, and smooth navigation — all in under 600 lines of code.
+**TEL** (Text Editor for Linux) is a minimalist terminal-based text editor built from scratch in pure C. It provides essential editing features such as line numbering, active line highlighting, and file saving — all implemented using low-level terminal control and ANSI escape codes. TEL is inspired by the philosophy of simplicity and full control, much like `vim` or `nano`, but without external dependencies.
 
-![TEL Demo](demo.gif) <!-- Replace with your own screenshot or GIF -->
+![TEL Demo](demo.gif) <!-- Replace this with your own screenshot or GIF -->
 
 ---
 
 ## 📌 Features
 
-- 🔢 **Line Numbers** — every row starts with its line number
-- 🎯 **Active Line Highlighting** — the line under the cursor is visually distinct
-- 📄 **File Editing** — open, edit, and save plain text files
-- ⌨️ **Basic Keyboard Controls** — arrow key navigation, save & quit shortcuts
-- 📜 **Minimalist Interface** — clean, distraction-free terminal UI
-- ⚙️ **Raw Mode Input** — character-by-character input handling using `termios`
+- 🔢 **Line Numbers** – Displays line numbers beside each row
+- ✨ **Highlighted Cursor Line** – Highlights the currently active line
+- 💾 **File I/O** – Open and save plain text files from the terminal
+- ⌨️ **Keyboard Navigation** – Use arrow keys, PageUp/PageDown to navigate
+- ⚙️ **Raw Mode Input** – Uses `termios` for low-level, character-by-character input handling
+- 📟 **Minimal Footprint** – Compact and clean codebase with no third-party libraries (~600 LOC)
 
 ---
 
@@ -26,25 +26,8 @@
 ---
 
 ## 📂 Project Structure
-├── tel.c # Source code
+tel/
+├── tel.c # Core source code
 ├── Makefile # Build script
-├── README.md
-└── test.txt # Sample input file
-
-
----
-
-## ⚙️ Installation & Running
-
-### 🔧 Compile
-
-```bash
-git clone https://github.com/AkhileshPatidar04/tel-text-editor.git
-cd tel-text-editor
-gcc tel.c -o tel -std=c99
-
-
-## Acknowledgements
-Inspired by Kilo by Salvatore Sanfilippo (@antirez)
-
-Built using Unix terminal raw mode + ANSI control codes
+├── README.md # Project documentation
+└── test.txt # Sample text file to open/edit
