@@ -31,6 +31,5 @@
 tel/
 ├── tel.c            # Core source code
 ├── Makefile         # Build script
-├── README.md        # Project documentation
-└── test.txt         # Sample file
+└── README.md        # Project documentation
 
